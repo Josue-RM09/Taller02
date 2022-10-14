@@ -1,0 +1,68 @@
+[{
+    "id": "1",
+    "Pelicula": "Halloween",
+    "Duracion": "1h",
+    "Clasificacion": "Terror/Suspenso",
+    "Formato": "BluRay",
+    "Horarios": "Lunes a Viernes: 8am a 9pm",
+    "Autor": "Jonh"
+},
+{
+    "id": "2",
+    "Pelicula": "Minions",
+    "Duracion": "140 Minutos",
+    "Clasificacion": "Comedia/Infantil",
+    "Formato": "BluRay",
+    "Horarios": "Lunes: 6pm",
+    "Autor": "Nose"
+},
+{
+    "id": "3",
+    "Pelicula": "Sonic",
+    "Duracion": "120 Minutos",
+    "Clasificacion": "Comedia",
+    "Formato": "BluRay",
+    "Horarios": "Solo Martes: 4pm y 12md",
+    "Autor": "Jeff Fowler"
+},
+{
+    "id": "4",
+    "Pelicula": "No respires",
+    "Duracion": "88 Minutos",
+    "Clasificacion": "Terror/Suspenso",
+    "Horarios": "Jueves: 8pm y 11pm",
+    "Autor": "Federico Alvarez"
+},
+{
+    "id": "5",
+    "Pelicula": "Son Como Niños",
+    "Duracion": "102 Minutos",
+    "Clasificacion": "Comedia",
+    "Horarios": "Miercoles: 5pm 12md 8am",
+    "Autor": "Dennis Dugan"
+},
+{
+    "id": "6",
+    "Pelicula": "Avengers: Infinity War",
+    "Duracion": "149 Minutos",
+    "Clasificacion": "Accion",
+    "Horarios": "Sabados: 8am 8pm",
+    "Autor": "Anthony Russo"
+},
+{
+    "id": "7",
+    "Pelicula": "El proyecto de la bruja de Blair",
+    "Duracion": "81 Minutos",
+    "Clasificacion": "Terror/Metraje",
+    "Horarios": "Viernes: 12pm",
+    "Autor": "Eduardo Sanchez"
+},
+{
+    "id": "9",
+    "Pelicula": "El viaje de Chihiro",
+    "Duracion": "125 Minutos",
+    "Clasificacion": "Fantasia/Aventura",
+    "Horarios": "Martes: 7pm 9pm",
+    "Autor": "Hayao Miyazaki"
+}
+]

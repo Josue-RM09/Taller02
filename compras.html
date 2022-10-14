@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Ventas.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="Shorcut icon" href="img/Carrito.png">
+    <title>Pollo a Domicilio</title>
+</head>
+<body>
+    <header>
+        
+<p id="Req">presione ctrl+Q para empezar a redactar</p>
+<div class="Principal">
+<div class="Caja-Texto" id="Caja"><p class="Info-Txt"></p></p></div>
+<textarea name="txtArea" id="txtArea" cols="115" rows="5"></textarea>
+<p class="J"></p>
+</div>
+
+    </header><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="Paquete-Compra">
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Super Combo</h3>
+                            <img class="IMG-Item" src="img/S_Comb.jpg" height="320px" width="760px">
+                                <h4 class="Precio-Item">$7.25</h4>
+                                <p>(tres piezas de pollo, ensalada, papas fritas y bebida grande)</p>
+                                <input type="radio" class="addToCart" id="S_P" value="2" name="Tipo"><br><br> Agregar Super Combo
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Combo Personal</h3>
+                            <img class="IMG-Item" src="img/C_Personal.jpg" height="220px" width="345px">
+                                <h4 class="Precio-Item">$5.75</h4>
+                                <p>(dos piezas de pollo, papa frita y bebida mediana)</p>
+                                <input type="radio" class="addToCart" value="2" id="Combo_P" name="Tipo"><br><br>
+                                Agregar Combo Personal
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Combo Infantil</h3>
+                            <img class="IMG-Item" src="img/C-Inf.jpg" height="220px" width="345px">
+                                <h4 class="Precio-Item">$3.50</h4>
+                                <p>(1 pieza de pollo, papas fritas y una bebida pequeña).</p>
+                                <input type="radio" class="addToCart" value="2" id="Comb_I" name="Tipo"><br><br>
+                                Agregar Combo Infantil
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+    <div class="Caja_Base">
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Ensalada</h3>
+                            <img class="IMG-Item" src="img/Ensalada.jpg" height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.50</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Bebida Grande</h3>
+                            <img class="IMG-Item" src="img/Beb-Gran.png" height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.50</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Bebida Mediana</h3>
+                            <img class="IMG-Item" src="img/Beb-Med.png" height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.25</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Bebida Pequeña</h3>
+                            <img class="IMG-Item" src="img/Beb-Peq.png" height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.00</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Pieza Grande</h3>
+                            <img class="IMG-Item" src="img/Pi-Gran.jpg" height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.75</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Tienda">
+            <div class="Contenedor">
+                <div class="Items">
+                    <div class="Caja-Compra">
+                        <div class="Base-Caja">
+                            <h3 class="Titulo">Pieza Mediana</h3>
+                            <img class="IMG-Item" src="img/Pic-Med.jfif"height="120px" width="145px">
+                                <h4 class="Precio-Item">$1.50</h4>
+                                <button class="addToCart">Agregar Al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="Tienda">
+        <div class="Contenedor">
+            <div class="Items">
+                <div class="Caja-Compra">
+                    <div class="Base-Caja">
+                        <h3 class="Titulo">Pieza Pequeña</h3>
+                        <img class="IMG-Item" src="img/Pi-Peq.jpg" height="120px" width="145px">
+                            <h4 class="Precio-Item">$1.25</h4>
+                            <button class="addToCart">Agregar Al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Tienda">
+        <div class="Contenedor">
+            <div class="Items">
+                <div class="Caja-Compra">
+                    <div class="Base-Caja">
+                        <h3 class="Titulo">Postre</h3>
+                        <img class="IMG-Item" src="img/Postre.png" height="120px" width="145px">
+                            <h4 class="Precio-Item">$1.25</h4>
+                            <button class="addToCart">Agregar Al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Tienda">
+        <div class="Contenedor">
+            <div class="Items">
+                <div class="Caja-Compra">
+                    <div class="Base-Caja">
+                        <h3 class="Titulo">Cafe</h3>
+                        <img class="IMG-Item" src="img/Caf.jfif"height="120px" width="145px">
+                            <h4 class="Precio-Item">$0.50</h4>
+                            <button class="addToCart">Agregar Al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Tienda">
+        <div class="Contenedor">
+            <div class="Items">
+                <div class="Caja-Compra">
+                    <div class="Base-Caja">
+                        <h3 class="Titulo">Papas Fritas</h3>
+                        <img class="IMG-Item" src="img/Frit.png" height="120px" width="145px">
+                            <h4 class="Precio-Item">$1.25</h4>
+                            <button class="addToCart">Agregar Al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="Segunda-Caja">
+<section class="shopping-cart">
+    <div class="container">
+        <h1 class="text-center">CARRITO</h1>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <div class="shopping-cart-header">
+                    <h6>Producto</h6>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h6 class="text-truncate">Precio</h6>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="shopping-cart-header">
+                    <h6>Cantidad</h6>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart-items shoppingCartItemsContainer">
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="shopping-cart-total d-flex align-items-center">
+                    <p class="mb-0">Total</p>
+                    <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                    <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                        data-delay="2000">
+                        <div class="toast-header">
+                            <span>✅</span>
+                            <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="toast-body text-white">
+                            Se aumentó correctamente la cantidad
+                        </div>
+                    </div>
+                    <button class="btn btn-success ml-auto comprarButton" id="BtnComprar" type="button" data-toggle="modal"
+                        data-target="#comprarModal">Comprar</button>
+                </div>
+            </div>
+        </div>
+</section>
+</div>
+<script src="js/ejem.js"></script>
+<script src="js/tienda.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+
+</body>
+</html>

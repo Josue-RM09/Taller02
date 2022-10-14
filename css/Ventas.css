@@ -1,0 +1,180 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-image: url(../img/Rest.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   overflow-x: hidden;
+}
+
+html{
+   margin: 0% 0%;
+}
+
+.Tienda{
+   padding: 1%;
+   margin: 2% 3%;
+   font-size: 45%;
+   float: left;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(163, 92, 0, 0.37);
+    border: 2px solid black;
+ }
+
+ .Caja-Compra{
+   margin: 5%;
+   padding-left: -50px;
+ }
+
+ .Base-Caja{
+   background-color: aliceblue;
+   padding: 3%;
+   text-align: center;
+   overflow: hidden;
+   border-radius: 40px 40px 0px 0px;
+ }
+
+ .Base-Caja > h3 {
+   font-size: 160%;
+ }
+
+ .addToCart{
+   border: none;
+   color: white;
+   font-size: 170%;
+   margin: 2%;
+   padding: 4%;
+   background-color: rgb(148, 84, 0);
+   border-radius: 5px;
+   transition: .1s;
+ }
+ .addToCart:hover{
+   transition: .1s;
+   background-color: rgb(128, 73, 0);
+   transform: scale(0.9);
+ }
+ .shopping-cart{
+   padding-right: 300px;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 252, 232, 0.37);
+   float: left;
+   margin: 10% 20%;
+}
+
+@media (max-width:700px) {
+   .shopping-cart{
+   margin: 5% -5%;
+   margin-left: -60px;
+   }
+}
+
+.Panel{
+  margin: 0% 20%;
+  padding: 2%;
+  float: left;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(163, 92, 0, 0.37);
+}
+
+.RB {
+  border: 3px solid black;
+  margin: 2% 13%;
+  float: left;
+  background-image: url(../img/Rest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#unselect{
+  padding: 3% 6%;
+  margin: 0 40%;
+  font-size: 120%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(163, 92, 0, 0.37);
+  border: 3px solid white;
+  color: white;
+  transition: .1s;
+  border-radius: 15px;
+}
+
+#unselect:hover{
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(105, 60, 0, 0.37);
+  transition: .1s;
+  transform: scale(.9);
+}
+
+.Info-producto{
+  font-size: 150%;
+  font-family: 'Courier New';
+}
+
+.img-D{
+  float: left;
+  margin: 3%;
+}
+
+.RadioBtn{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.Precio-Item{
+  font-size: 140%;
+}
+
+.Paquete-Compra{
+  font-size: 150%;
+  margin: 0 16%;
+}
+
+    #txtArea{
+        resize: none;
+        position: absolute;
+        display: none;
+        font-size: 25px;
+    }
+
+    .Caja-Texto{
+        border: 2px solid black;
+        padding: 2%;
+        height: 190px;
+        position: absolute;
+        width: 1300px;
+        font-size: 25px;
+        background-color: white;
+        z-index: 999;
+        margin: 0;
+    }
+
+    .J{
+        margin: 3%;
+    }
+
+    .Principal{
+      position: absolute;
+  }
+
+  #Req{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(95, 0, 0);
+    padding: 3%;
+  }
+  
